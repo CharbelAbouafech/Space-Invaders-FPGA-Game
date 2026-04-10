@@ -1,0 +1,31 @@
+Time resolution is 1 ps
+========================================
+ top module integration testbench
+========================================
+  PASS  Enemy(0,0) at (36,48) =        CYAN (0ff)
+  PASS  Background (600,300) = BLACK
+  PASS  Bunker0 (100,380) = GREEN
+  PASS  Player centre (320,436) =       GREEN (0f0)
+
+--- VGA Timing (from output pins) ---
+  PASS  od (px clocks)   = 800
+  PASS   width           = 96
+  PASS  od (px clocks)   = 420000
+  PASS   width           = 1600
+
+--- Active Window (from internal pixel_x/y) ---
+  PASS      min active x = 0
+  PASS      max active x = 639
+  PASS      min active y = 0
+  PASS      max active y = 479
+
+--- Blanking Check ---
+  PASS  rgb=000 throughout all blanking periods
+
+--- pixel_gen Colour Checks ---
+
+========================================
+ Results: 13 passed, 0 failed
+========================================
+ ALL CHECKS PASSED — PL side is good
+$finish called at time : 33616140 ns : File "C:/Users/Charbel/Documents/ECE_520/space_invaders_game/space_invaders_game.srcs/sim_1/new/vga_sync_tb.v" Line 287
